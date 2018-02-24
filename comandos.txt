@@ -1,0 +1,9 @@
+git init
+git status
+git log
+git add -A
+git commit -m "descricao do commit"
+git branch
+git reset --soft (volta as permanecendo com as alterações, mas sem o commit)
+git reset --hard (volta ao estado original, perdendo as alterações)
+ 
