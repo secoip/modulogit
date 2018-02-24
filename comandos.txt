@@ -6,4 +6,7 @@ git commit -m "descricao do commit"
 git branch
 git reset --soft (volta as permanecendo com as alterações, mas sem o commit)
 git reset --hard (volta ao estado original, perdendo as alterações)
+git revert --no-edit 836640380a6c6478d19d6e46846d216f04b81113
+
+
  
