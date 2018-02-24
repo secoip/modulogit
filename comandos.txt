@@ -8,5 +8,15 @@ git reset --soft (volta as permanecendo com as alterações, mas sem o commit)
 git reset --hard (volta ao estado original, perdendo as alterações)
 git revert --no-edit 836640380a6c6478d19d6e46846d216f04b81113
 
+(git push -> envia do repositorio local para o remoto)
+criando um branch remoto
+git push origin teste
 
- 
+removento o branch (adicionar : no inicio, serve para tudo)
+git push origin :teste
+
+Removendo um branch local
+git branch -D teste
+
+
+(git pull -> pega do repositorio remoto para o local)
